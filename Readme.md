@@ -28,31 +28,27 @@
     |-- docker-compose.yml        // Docker Compose file for containerization
 
 # Project Naming Nomenclature
-1.Frontend: For frontend components and files, you can use a camelCase or kebab-case convention for naming. Here are some examples:
+1.Frontend: For frontend components and files, camelCase or kebab-case convention for naming Depending on Language:
 
     ContentUploader.js (CamelCase for JavaScript/React files)
     content-uploader.css (Kebab-case for CSS files)
     userProfile.vue (CamelCase for Vue.js single-file components)
 
 
-2. Backend: Naming conventions for the backend depend on the programming language and framework you're using. Here are some examples:
-
+2. Backend:
     ContentController.java (CamelCase for Java classes)
     content_controller.py (Snake_case for Python files/classes)
     UserController.ts (CamelCase for TypeScript files)
 
 
-3. Database: When naming database tables, use lowercase letters and underscores. For example:
+3. Database: lowercase letters and underscores.
 
     user_profiles
     content_videos
     editor_assignments
 
 
-4. Routes: For defining routes in your backend API, use clear and descriptive names. For instance:
-
+4. Routes: 
     /api/upload (for content upload)
     /api/edit (for video editing)
     /api/review (for content review)
-
-5. Variables and Functions: Follow language-specific naming conventions for variables and functions. For JavaScript/TypeScript, use camelCase:
